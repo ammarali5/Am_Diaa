@@ -118,22 +118,25 @@ header h1 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.2);
+  background: var(--secondry-color);
   color: white;
   border: none;
   font-size: 1.2rem;
   padding: 0.4rem 0.6rem;
-  border-radius: 50%;
   cursor: pointer;
   z-index: 10;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20%;
 }
 
 .scroll-btn.left {
-  left: 5px;
+  left: 0;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .scroll-btn.right {
-  right: 5px;
+  right: 0;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Show arrows only on small screens */
